@@ -1,0 +1,295 @@
+@media(max-width:1100px) {
+    .simple-sol h2 {
+        font-size: 112%;
+    }
+
+    .simple-sol p {
+        font-size: 65%;
+    }
+
+    .simple-sol button {
+        width: 48%;
+        height: 4rem;
+        font-size: 72%;
+    }
+}
+
+@media(max-width:965px) {
+    .simple-sol h2 {
+        font-size: 94%;
+        line-height: 34px;
+    }
+
+    .simple-sol p {
+        font-size: 54%;
+        line-height: 21px;
+    }
+
+    .simple-sol button {
+        width: 47%;
+        height: 3rem;
+        font-size: 60%;
+    }
+}
+
+@media(max-width:768px) {
+    .simple-sol h2 {
+        font-size: 65%;
+        line-height: 23px;
+    }
+
+    .simple-sol p {
+        font-size: 44%;
+        line-height: 17px;
+    }
+
+    .simple-sol button {
+        width: 40%;
+        height: 2.5rem;
+        font-size: 48%;
+    }
+}
+
+@media(max-width:600px) {
+    .simple-sol h2 {
+        font-size: 50%;
+        line-height: 18px;
+    }
+
+    .simple-sol p {
+        font-size: 34%;
+        line-height: 15px;
+    }
+
+    .simple-sol button {
+        width: 40%;
+        height: 2.1rem;
+        font-size: 35%;
+    }
+}
+
+@media(max-width:460px) {
+    .simple-sol {
+        padding: .4rem 0 0 1rem;
+    }
+
+    .simple-sol h2 {
+        font-size: 36%;
+        line-height: 14px;
+    }
+
+    .simple-sol p {
+        font-size: 25%;
+        line-height: 11px;
+    }
+
+    .simple-sol button {
+        width: 40%;
+        height: 1.7rem;
+        font-size: 29%;
+    }
+    #main-network-second
+    {
+        left: -.6rem;
+    }
+}
+
+
+@media (max-width:426px) {
+    .wallet-cash {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main-network img {
+        width: 100%;
+    }
+    .simple-sol
+    {
+        max-width: 100vw;
+    }
+    .simple-sol h2 {
+        font-size: 47%;
+        line-height: 2rem;
+        text-align: center;
+    }
+    
+    .simple-sol p {
+        font-size: 27%;
+        line-height: 8px;
+    }
+    .simple-sol button {
+        width: 29%;
+        max-width: 100%;
+        height: 1.5rem;
+        font-size: 27%;
+        margin: 0 33%;
+    }
+}
+
+
+/* Main-Network */
+
+@media (max-width:1300px) {
+    #main-network-second {
+        top: 4rem;
+        left: -6rem;
+    }
+    .wallet-cash
+    {
+        padding-bottom: 4rem;
+    }
+}
+
+@media (max-width:1160px) {
+    #main-network-second {
+        top: 3rem;
+        left: -5.1rem;
+    }
+    .wallet-cash
+    {
+        padding-bottom: 3rem;
+    }
+}
+
+@media (max-width:1070px) {
+    #main-network-second {
+        left: -4.5rem;
+    }
+}
+
+@media (max-width:1024px)
+{
+    .navcoin-1
+    {
+        left: 12%;
+    }
+}
+@media (max-width:965px) {
+    #main-network-first {
+        left: 4.5rem;
+    }
+    #main-network-second {
+        left: -3.5rem;
+        top: 2rem;
+    }
+}
+
+
+@media (max-width:900px) {
+    #main-network-second {
+        left: -2.5rem;
+        top: 2rem;
+    }
+}
+
+
+@media (max-width:768px) 
+{
+   #main-network-first {
+     left: 3rem;
+}
+ #main-network-second {
+    left: -3rem;
+}
+.wallet-cash {
+    padding-bottom: 2rem;
+}
+}
+
+@media (max-width:680px) 
+{
+   #main-network-second {
+     left: -2.5rem;
+   }
+}
+
+@media (max-width:600px) 
+{
+   #main-network-second {
+     left: -1.7rem;
+   }
+   .navcoin-1{
+    left: 15%;
+   }
+}
+
+@media (max-width:426px)
+{
+    .wallet-cash
+    {
+        padding: 0px;
+        gap: 20px;
+    }
+    
+    #main-network-first
+    {
+        left: 2rem;
+    }
+    #main-network-second
+    {
+        left: -1.4rem;
+        top: 1rem;
+    }
+}
+
+
+
+
+/* invest-platform */
+
+
+
+@media (max-width:768px)
+{
+  .invest-asset h2
+  {
+    width: 70%;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 1rem;
+  }
+}
+
+@media (max-width:650px)
+{
+    .invest-asset h2 
+    {
+        font-size: 25px;
+        padding: 2rem;
+        line-height: 25px;
+    }
+}
+
+
+@media (max-width:440px)
+{
+    .invest-asset h2 
+    {
+        font-size: 21px;
+        padding: 1.5rem;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 480px) {
+    .asset-list li {
+        flex: 0 1 50%;
+        padding:10px;
+    }
+}
+@media (max-width: 360px) 
+{
+    .invest-asset h2
+    {
+          width: 100%;
+    }
+    .asset-list li {
+        flex: 0 1 100%; 
+        padding: 10px 20px;
+    }
+}
+
+
+
+

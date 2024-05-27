@@ -1,0 +1,930 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    background-color: wheat;
+}
+
+/* Header */
+
+
+.navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(109.87deg, #F6EDD6 7.19%, #E2E8DF 59.3%, rgba(217, 217, 217, 0) 101.49%, #D5E4E4 101.49%);
+    z-index: 99;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+
+}
+
+.top-header-panel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Navbar left part */
+
+.left-header-panel {
+    width: 25%;
+}
+
+.left-header-panel a {
+    display: flex;
+    width: auto;
+    align-items: center;
+    text-decoration: none;
+}
+
+.left-header-panel a img {
+    max-width: 100%;
+}
+
+.left-header-panel a span {
+    padding: 0 0 0 .75rem;
+    font-size: 1.375rem;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+
+/* Navbar Right Part */
+
+.right-header-panel {
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-nav {
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.header-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-nav ul li {
+    width: auto;
+    display: flex;
+    font-size: 1.4rem;
+
+    padding: 0 1.5rem;
+    align-items: center;
+}
+
+.header-nav ul li a {
+    display: inline-block;
+    padding: 2rem 0rem;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.login-btn {
+    width: auto;
+    position: relative;
+}
+
+.login-btn button {
+    min-width: 6rem;
+    height: 2.5rem;
+    padding: 0 1.3rem;
+    border-radius: .5rem;
+    margin: 0 1rem;
+    border: none;
+    background-color: rgba(218, 167, 29, 1);
+    color: white;
+    font-size: medium;
+}
+
+.right-header-panel span {
+    font-size: 2.3rem;
+    margin-right: 1.3rem;
+    display: none;
+}
+
+
+
+
+
+
+/* Section 1 */
+
+.crypto-sec {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(109.87deg, #F6EDD6 7.19%, #E2E8DF 59.3%, rgba(217, 217, 217, 0) 101.49%, #D5E4E4 101.49%);
+
+}
+
+.crypto-wallet {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 4.9rem 0rem 0rem 0;
+    margin-bottom: 3rem;
+}
+
+.buy-sell-left {
+    max-width: 40vw;
+    width: 100%;
+}
+
+.buy-sell-left h1 {
+    max-width: 100%;
+    font-size: 4.35rem;
+    line-height: 5rem;
+    color: rgba(218, 167, 29, 1);
+}
+
+.buy-sell-left p {
+    font-size: 1.85rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.buy-sell-left button {
+    width: 15rem;
+    height: 4.8rem;
+    border-radius: 4rem;
+    font-size: 1.7rem;
+    color: white;
+    background: rgba(218, 167, 29, 1);
+    border: none;
+}
+
+.buy-sell-right img {
+    position: relative;
+    width: 30%;
+    height: auto;
+    top: 0;
+    left: 50%;
+}
+
+
+
+.buy-sell-right {
+    max-width: 60vw;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    width: 8%;
+    padding-top: 8%;
+    border-radius: 50%;
+    top: 3.1875rem;
+    left: 30%;
+    background-color: rgba(218, 167, 29, 1);
+}
+
+.circle-1 {
+    position: absolute;
+    width: 36%;
+    padding-top: 36%;
+    border-radius: 50%;
+    background-color: rgba(218, 167, 29, 1);
+    top: 19rem;
+    right: 0%;
+}
+
+
+
+
+
+
+
+/* Globally Section */
+
+.global-sec {
+    width: 100%;
+    margin-top: -2rem;
+    position: relative;
+    border-radius: 19px;
+}
+
+.globally-bkl {
+    width: 90%;
+    vertical-align: top;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 19px;
+    background-color: white;
+    font-size: 16px;
+    padding: 0 0 0 3rem;
+}
+
+
+
+.globally-pay {
+    min-width: 40%;
+}
+
+.globally-bkl h2 {
+    font-size: 2.2em;
+    font-weight: 600;
+    color: rgba(71, 71, 71, 1);
+}
+
+.globally-bkl #providers {
+    font-family: "Big Shoulders Inline Display", sans-serif;
+    font-size: 4.375em;
+    font-weight: 900;
+    color: rgba(218, 167, 29, 1);
+}
+
+.globally-bkl p {
+
+    font-size: 2.3em;
+    font-weight: 600;
+    color: rgba(71, 71, 71, 1);
+}
+
+.banner-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+/* Ravi Block */
+
+.ravi-block {
+    width: 100%;
+    position: relative;
+}
+
+.blocks {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.ravi-refferal {
+    max-width: 40%;
+    padding: 1rem 1rem 3rem 1rem;
+    font-size: 16px;
+    background-color: rgba(246, 241, 214, 1);
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.ravi-refferal h4 {
+    font-family: Euclid Circular B;
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: .5em;
+    text-align: left;
+    color: rgba(218, 167, 29, 1);
+}
+
+.ravi-refferal p {
+    font-family: Rubik;
+    font-size: 1.3em;
+    word-wrap: break-word;
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-align: left;
+    color: rgba(71, 71, 71, 1);
+
+}
+
+.ravi-refferal pre {
+    font-family: Euclid Circular B;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: left;
+}
+
+#Gift-box {
+    width: 100%;
+    max-width: 30%;
+    height: auto;
+    position: relative;
+    top: 1%;
+    left: 62%;
+}
+
+#Contact-img {
+    width: 100%;
+    max-width: 18%;
+    height: auto;
+    position: relative;
+    top: 14%;
+    left: 21%;
+}
+
+#get-dis {
+    position: relative;
+    width: 100%;
+    max-width: 30%;
+    top: 20%;
+    left: 44%;
+    z-index: 3;
+}
+
+#no-caps {
+    position: relative;
+    width: 100%;
+    max-width: 21%;
+    left: 34%;
+    top: -5%;
+    z-index: 2;
+}
+
+#ravi-coin-btk {
+    position: relative;
+    width: 100%;
+    max-width: 11%;
+    left: 21%;
+    top: 10%;
+}
+
+
+
+/* Cash-Crypto */
+
+.cash-crypto {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.wallet-cash {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.simple-sol {
+    max-width: 40%;
+    padding: 1rem 0 0 2rem;
+    font-size: 30px;
+}
+
+.simple-sol h2 {
+    font-family: Rubik;
+    font-size: 167%;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+}
+
+.simple-sol p {
+    font-family: Rubik;
+    font-size: 86%;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.simple-sol button {
+    font-family: Rubik;
+    width: 46%;
+    height: 4.5rem;
+    border-radius: 55px;
+    font-size: 83%;
+    font-weight: 500;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid rgba(218, 167, 29, 1);
+    color: rgba(218, 167, 29, 1);
+    margin: 1rem 0 0 0;
+}
+
+
+.main-network {
+    width: 60%;
+    max-width: 100%;
+    position: relative;
+}
+
+.main-network img {
+    max-width: 48%;
+}
+
+#main-network-first
+{
+    position: relative;
+    left: 4rem;
+    z-index: 7;
+}
+#main-network-second
+{
+    position: relative;
+    top: 6rem;
+    left: -7rem;
+    z-index: 4;
+}
+
+.navcoin-1
+{
+    width:12%;
+    padding-top: 12%;
+    border-radius: 50%;
+    background-color: rgba(218, 167, 29, 1);
+    position: absolute;
+    left: 9%;
+    top: 0%;
+}
+
+.navcoin-2
+{
+    width:25%;
+    padding-top: 25%;
+    border-radius: 50%;
+    background-color: rgba(218, 167, 29, 1);
+    position: absolute;
+    top: 46%;
+    left: 67%;
+}
+
+
+
+/* Invest-Platform Section */
+
+.invest-paltform
+{
+    width: 100%;
+    position: relative;
+}
+.investor
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.invest-asset h2 {
+    width: 60%;
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+    color: black;
+}
+
+.rovi-asset-img
+{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.asset-list
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.asset-list li
+{
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.asset-list li img
+{
+    width: 100%;
+    display: block;
+}
+
+
+/* ravi-graphic */
+
+#ravi-graphic
+{
+  width: 100%;
+  position: relative;
+  background-color: rgba(18, 5, 60, 1);
+}
+
+.graphics-pay
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.graphic-design
+{
+    max-width: 50vw;
+    width: 100%;
+    padding-left: 12px;
+    /* border: 2px solid red; */
+}
+
+.payment-success
+{
+    max-width: 50vw;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid rgb(1, 225, 8); */
+}
+
+.payment-success img
+{
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+.graphic-design h3 {
+    font-family: "Rubik", sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.graphic-design p {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 13px 0;
+    text-align: left;
+    color: white;
+
+}
+
+.graphic-design span {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+
+}
+
+.token-coin-1 img
+{
+    position: absolute;
+    top: 11%;
+    width: 5%;
+    height: auto;
+    left: 52%;
+}
+
+.token-coin-2 img
+{
+    position: absolute;
+    top: 46%;
+    width: 3%;
+    height: auto;
+    left: 90%;
+}
+
+.token-coin-3
+{
+    position: absolute;
+    top: -8%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    width: 14%;
+    padding-top: 7%;
+    border-radius: 150px 150px 0 0;
+    background-color: rgba(218, 167, 29, 1);
+    rotate: 270deg;
+}
+
+
+.rovi-sell
+{
+    width: 100%;
+    position: relative;
+}
+
+.selling-token
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    /* border: 2px solid red; */
+}
+
+.sell-token-img
+{
+    max-width:30vw;
+    /* border: 2px solid black; */
+}
+
+.sell-token-img img
+{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.subscribe
+{
+    max-width: 60vw;
+    padding: 1rem 0 0 1rem;
+    /* border: 2px solid green; */
+}
+
+.subscribe h4
+{
+    font-family: "Rubik", sans-serif;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.subscribe p {
+    font-family: "Rubik", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(71, 71, 71, 1);
+    line-height: 30px;
+}
+
+.subscribe span {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 100%;
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+
+.subscribe span input {
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+    box-shadow: -12px 12px 10px 0px rgba(0, 0, 0, 0.269);
+    padding: 1.3rem 0;
+    padding-left: 1rem;
+}
+
+.subscribe span button {
+    max-width: 100%;
+    background-color: rgba(218, 167, 29, 1);
+    border: none;
+    color: white;
+    font-size: 23px;
+    line-height: 30px;
+    padding: 0 2.3rem;
+}
+
+
+
+
+
+/* Social-Media */
+
+#social-media
+{
+    width: 100%;
+    position: relative;
+}
+
+.ravi-data
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 30px;
+}
+
+/* Part-1 */
+
+.ravi-wallet {
+    flex: 0 0 30%;
+}
+
+.ravi-wallet h1 
+{
+    max-width: 100%;    
+    display: inline-block;
+}
+
+.ravi-wallet h1 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 0 0 .5rem;
+}
+
+.ravi-wallet h1 a img
+{
+   max-width: 100%;
+    height: auto;
+}
+
+.ravi-wallet h1 span {
+    padding: 0 0 0 .75rem;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.ravi-wallet p {
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    margin-top: 31px;
+    color: rgba(71, 71, 71, 1);
+}
+
+
+/* Part-2 */
+
+.ltk-btk
+{
+    flex: 0 0 22%;
+}
+.learn ul {
+    list-style: none;
+    line-height: 3rem;
+}
+
+.learn #learn-btl {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+
+    text-align: center;
+    color: rgba(218, 167, 29, 1);
+}
+
+.learn ul li {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(71, 71, 71, 1);
+}
+
+/* Part - 3 */
+
+.privacy ul {
+    list-style: none;
+    line-height: 3rem;
+}
+
+.privacy #privacy-btl {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(218, 167, 29, 1);
+}
+
+.privacy ul li {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(71, 71, 71, 1);
+}
+
+
+
+/* Part - 4  */
+
+
+
+.follow-us ul
+{
+    list-style: none;
+}
+
+#follow-us-btl
+{
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(218, 167, 29, 1);
+}
+.follow-us ul li
+{
+  line-height: 4rem;
+}
+
+
+
+.following-data
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.following-data li 
+{
+   font-size: 35px;
+   margin-right: .5rem;
+}
+
+.following-data li i
+{
+    position: relative;
+    left: 9px;
+    bottom: 5px;
+}
+.data-one
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(40, 103, 178, 1);
+    color:white
+}
+
+
+.follow-us ul li img
+{
+    width: 52%;
+    height: auto;
+    /* margin-top: 1.7rem; */
+    background-color: black;
+    margin: 22px auto;
+    display: flex;
+    padding: 0 0rem;
+    align-items: center;
+    border-radius: 7px;
+
+}
+
+.copy-right
+{
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem 0rem;
+    background-color: rgba(255, 227, 184, 1);
+}
